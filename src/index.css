@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  li::marker {
+    color: #8f19e8;
+  }
+
+  .dark {
+    @apply bg-[#0f0f0f];
+  }
+}
+
+@layer components {
+  .audioButton:hover .playIcon {
+    @apply text-white;
+  }
+}
